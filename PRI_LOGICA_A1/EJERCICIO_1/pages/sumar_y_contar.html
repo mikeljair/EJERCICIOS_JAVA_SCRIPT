@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ccs/sumar_y_contar.css">
+    <title>sumar_y_contar</title>
+</head>
+<body>
+    <header>    
+        <img src="https://www.unemi.edu.ec/wp-content/uploads/2021/09/LOGO-WEB-BLANCO.png">
+    </header>
+    <div>
+        <h1>Sumar y Contar </h1>
+        <div class="wrapper-content">
+            <div class="content-box">
+                <form action="../index.html">
+                    <div class="grupo">
+                        <label >Desde:</label>
+                        <input type="text" id="inicio">
+                    </div>
+                    <div class="grupo">
+                        <label >Hasta:</label>
+                        <input type="text" id="fin">
+                    </div>
+                    <div class="grupo">
+                        <button type="button" onclick="ejer.contar()">Calcular</button>
+                        <button type="reset">Cancelar</button>
+                        <button type="submit">Regresar</button>
+                    </div>
+                    <textarea id="resp" cols="50" rows="10">
+Respuesta aquí...
+                    </textarea>
+                </form>
+            </div>
+        </div>
+    </div> 
+   <script src="../js/ejercicios.js">
+
+   </script>
+</body>
+</html>
